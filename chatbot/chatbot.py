@@ -4,6 +4,7 @@ from nltk.chat.util import Chat, reflections
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
+#pairs data set get from the kaggle
 pairs = [
     [
         r"my name is (.*)",
